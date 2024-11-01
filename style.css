@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body{
+    font-family: "Outfit", serif;
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.container-parent{
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.container{
+    width: 30em; 
+    padding: 20px;
+}
+
+.image-omelette{
+  height: 230px;
+  width: 450px;
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1,h2{
+  font-family: "Young Serif", serif;
+}
+
+h1{
+  color:black;
+}
+
+.rouge{
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px;
+}
+
+h3,::marker{
+  color: hsl(332, 51%, 32%);
+}
+
+h2,::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.gras{
+  font-weight: bold;
+}
+
+.rose{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  margin-left: 340px;
+}
+
+.carbs{
+  margin-left: 355px;
+}
+
+.protein{
+  margin-left: 350px;
+}
+
+.fat{
+  margin-left: 375px;
+}
+.tiret-bas{
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+
+}
+
+@media (max-width: 768px) {
+  .container {
+      width: 80vw;
+  }
+  .image-omelette {
+    width: 100%;
+    height: auto;
+}
+}
